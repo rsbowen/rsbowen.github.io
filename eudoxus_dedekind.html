@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>Greeks and Calculus, part 1: Eudoxus and Dedekind</title>
+<title>Greeks and Calculus: Eudoxus and Dedekind</title>
 <!-- MathJax -->
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
@@ -19,25 +19,26 @@ MathJax.Hub.Config({
 <body>
 <div id="layout-content">
 <div id="toptitle">
-<h1>Greeks and Calculus, part 1: Eudoxus and Dedekind</h1>
+<h1>Greeks and Calculus: Eudoxus and Dedekind</h1>
 </div>
-<p>It's fairly well-known among math people that the Greeks were not that far
-from the beginnings of what we now call calculus &ndash; for example, Archimedes is
-understood to have understood the convergence of geometric series and the
+<p>I think it is well-known among people who like math that the Greeks were not
+that far from the beginnings of what we now call calculus or analysis &ndash; for
+example, Archimedes is understood the convergence of geometric series and the
 method of exhaustion is very close to what we now call limits. If you squint,
-you'll even find integrals. </p>
-<p>I have memories of, in my undergraduate math history course, being pleasantly
-surprised by some of these examples. However, I haven't found anywhere on the
-web which collects them &ndash; that is the purpose of this project. On this page
-you will find the details of the similarity between an early definition of
-equality of ratios and a millenia-later foundational definition of the real
-numbers.</p>
+you'll even find integrals in his work.</p>
+<p>In an undergraduate math history course, I was pleasantly surprised by some of
+these examples. However, I haven't found anywhere on the web which collects
+them &ndash; that is the purpose of this project. On this page you will find the
+details of the similarity between an early definition of equality of ratios and
+a millenia-later foundational definition of the real numbers.</p>
+<p>Comments? Please email me: <a href="mailto:rsbowen@gmail.com" target=&ldquo;blank&rdquo;>rsbowen@gmail.com</a></p>
 <h2>The Main Players</h2>
-<p>Eudoxus of Cnidus was a 4th- and 3rd- century BC Greek mathematician. In
-Euclid, he gives a condition for the equality of ratios of magnitudes in terms
-of conditions only on natural numbers. Richard Dedekind was a 19th- and 20th-
-century German mathematician famous for the &lsquo;&lsquo;Dedekind cut&rsquo;&rsquo;, a formal
-construction of the reals from the rationals.</p>
+<p><a href="https://en.wikipedia.org/wiki/Eudoxus_of_Cnidus" target=&ldquo;blank&rdquo;>Eudoxus of Cnidus</a> was a 4th-
+and 3rd- century BC Greek mathematician. In Euclid, he gives a condition for
+the equality of ratios of magnitudes in terms of conditions only on natural
+numbers. <a href="https://en.wikipedia.org/wiki/Richard_Dedekind" target=&ldquo;blank&rdquo;>Richard Dedekind</a> was a 19th- and 20th- century German mathematician
+famous for the &lsquo;&lsquo;Dedekind cut&rsquo;&rsquo;, a formal construction of the reals from the
+rationals.</p>
 <p>In the context of lengths, which is a first-class object in Greek mathematics,
 there is no obvious &lsquo;&lsquo;base unit&rsquo;&rsquo; (like the inch), so a single line can't be
 said to have rational or irrational length. It is only in finding the ratios of
@@ -45,12 +46,11 @@ lengths that this distinction appears. Euclid's algorithm can be used to find a
 <b>unit</b> length for two longer lengths, so that each of the longer lengths is an
 integer ratio of the unit length. But it is not always possible to find such a
 unit length &ndash; in contemporary language it is only possible if the ratio of the
-lengths is rational.  However, the Greeks did have a way of comparing two
-ratios (that is, four lines, or two sets of two lines) for equality, and this
-is given by Eudoxus.</p>
+lengths is rational.  However, the Greeks did have a definition for comparing
+two ratios (that is, four lines, or two sets of two lines) for equality &ndash; even
+in the incommensurable case &ndash;, and this is given by Eudoxus.  </p>
 <h2>Eudoxus</h2>
-<p>Eudoxus gives a way again to say whether two sets of lines have the same ratio,
-even if they are not comensurable. Euclid states it as follows (cite this RSB):</p>
+<p>Euclid states what I call the Eudoxus condition as follows (cite this RSB):</p>
 <div class="infoblock">
 <div class="blockcontent">
 <p>Magnitudes are said to be in the same ratio, the first to the second and the
@@ -59,14 +59,24 @@ and third, and any equimultiples whatever of the second and fourth, the former
 equimultiples alike exceed, are alike equal to, or alike fall short of, the
 latter equimultiples respectively taken in the corresponding order</p>
 </div></div>
-<p>That is, if I have two sets of lines &ndash; red and blue &ndash; to know if my red lines
-are in the same ratio as my blue lines, I should pick any integer \(x\), and
-repeat end-to-end the short lines \(x\) times. Then, I should pick any other
-integer \(y\), and repeat end-to-end the long lines that many times. If no matter
-which integers I chose, the relationship (shorter, longer, or the same length)
-between the red repeated-short line and red repeated-long line is still the
-same as that between the blue repeated-short line and the blue repeated-long
-line, then the ratios are the same. In contemporary notation, we might say:</p>
+<p>I find this a little difficult to parse, so here is an example. Suppose I have
+two sets of lines &ndash; red and blue &ndash; and I'd like to know if the red lines&rsquo;
+lengths are in the same ratio as the blue:</p>
+<table class="imgtable"><tr><td>
+<img src="pair_of_ratios.svg" alt="A pair of ratios, represented as four line segments -- two red, and two blue" width="100%" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>I can pick any pair of positive integers, \(x\) and \(y\). I repeat the shorter red
+line \(x\) times and the shorter blue line \(x\) times. I repeat the longer red
+line \(y\) times and the longer blue line \(y\) times. Here is the above example
+with \(x=3\) and \(y=2\).</p>
+<table class="imgtable"><tr><td>
+<img src="eudoxus_counterexample.svg" alt="The same pair of ratios, with the 'numerator' and 'denominator' repeated three times and two times respectively; the red repeated-numerator is longer than the red repeated-denominator, but the blue repeated-numerator is shorter than the blue repeated-denominator." width="100%" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>In this case the repeated-short-red line is longer than the
+repeated-long-red-line, but the repeated-short-blue-line is still shorter than
+the repeated-long-blue-line. This means the ratios are unequal. If I can find
+no such pair \(x,y\), then the ratios are equal. In contemporary notation, we
+might say:</p>
 <p style="text-align:center">
 \[
 \frac{a}{b} = \frac{c}{d} \leftrightarrow \left [ \forall x \forall y \left( xa \geq yb
@@ -82,27 +92,26 @@ language follows. Forward direction: let \(x\) and \(y\) be arbitrary integers a
 \frac{xa}{yb} &amp;= \frac{xc}{yd}
 \end{align*}
 \]
-</p><p>This identity is useful in the following chain of coimplications:</p>
+</p><p>This identity is useful in the following chain of biconditionals:</p>
 <p style="text-align:center">
 \[
 xa \geq yb \leftrightarrow \frac{xa}{yb} \geq 1 \leftrightarrow 
 \frac{xc}{yd} \geq 1 \leftrightarrow xc \geq yd
 \]
 </p><p>This completes the forward direction. The reverse direction can be proven by
-contradicition. Suppose that</p>
-<p style="text-align:center">
-\[\forall x \forall y \left (xa \geq yb \leftrightarrow xc \geq yd\right )\]
-</p><p>but that, \(a/b \neq c/d\). Without loss of generality, \(a/b &lt; c/d\). Then there
-is some rational \(q=m/n\), where \(m\) and \(n\) are integers, which lies between
+contraposition. Let \(a/b \neq c/d\). Without loss of generality, \(a/b &lt; c/d\).
+Then is some rational \(q=m/n\), where \(m\) and \(n\) are integers, which lies between
 them: \(a/b &lt; m/n &lt; c/d\). We may derive:</p>
 <p style="text-align:center">
 \[ a/b &lt; m/n \rightarrow na &lt; mb.\]
 </p><p>And simultaneously</p>
 <p style="text-align:center">
 \[ c/d &gt; m/n \rightarrow nc &gt; md.\]
-</p><p>Since we \(x\) and \(y\) are universally quantified, a contradiction is easily arrived at by letting \(x=n\) and \(y=m\).</p>
-<h2>Eudoxus and Dedekind</h2>
-<p>The Dedekind construction of the real numbers is to identify them with subsets
+</p><p>Then \((n,m)\) is a witness which shows the existence of a pair \((x,y)\) where</p>
+<p style="text-align:center">
+\[ \exists x \exists y \left ( xa \geq yb \not \leftrightarrow xc \geq yd \right ). \]
+</p><h2>Eudoxus and Dedekind</h2>
+<p>The <a href="https://en.wikipedia.org/wiki/Dedekind_cut" target=&ldquo;blank&rdquo;>Dedekind construction of the real numbers</a> is to identify them with subsets
 \(S\) of the rationals subject to the property that \(q \in S\) and \(p&lt;q\) implies
 \(p \in S\). We can identify the real with the obvious limit point; for example,
 \(\sqrt{2}\) is identified with the set of all rationals whose square is less
@@ -145,7 +154,7 @@ mathematical), the actually mathematics follows quickly &ndash; discovering the
 above equivalence is not difficult.</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2016-01-03 17:49:18 PST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2016-01-16 14:09:14 PST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </div>
