@@ -1,0 +1,108 @@
+<html>
+<head>
+<!-- Hello curious individual! I don't really know javascript or html (can you tell?). So be prepared for mess. ALSO: the next line is a spoiler (contains solution)!!!-->
+<script language="javascript">
+cw = "FAB#SCUBA#DAGAIR#OARED#OBOALI#IKEAS#YES##DALEYS#ROTHPRESS##LIEU##REAP#TWELFTHSINN#FREYA#AOLGODHOODS#IKEA##GERM##BRESTEARP#BASEST##RIO#HONOR#HATADO#ENACT#IDOSAM#DESKS#SAD"
+size=13;
+function fillExampleCword() {
+  var table = document.getElementById("crossword_table");
+  var cw_number = 0;
+  for(var row = 0; row < size; row++) {
+    var tr = document.createElement('tr');
+    for(var col = 0; col < size; col++) {
+      var td = document.createElement('td');
+      var index = col+size*row;
+      if(cw[index] == '#') td.setAttribute('class', 'filled');
+      else if(row == 0 || col ==0 || cw[index-1] == '#' || cw[index-size] == '#') {
+        cw_number++;
+	td.innerHTML=""+cw_number;
+      }
+      td.setAttribute('id', row+'_'+col);
+      tr.appendChild(td);
+    }
+    table.appendChild(tr);
+  }
+}
+</script>
+<style>
+td {width: 50px; height:50px;}
+td {text-align:left;vertical-align:top; font-size:12}
+td.filled {background: black;}
+td.active {background: #ddddff;}
+td.activeAndFilled {background: repeating-linear-gradient(45deg, black, #ddddff);}
+table,td {border: 1px solid black;}
+table {border-collapse: collapse;}
+</style>
+</head>
+<body onload="fillExampleCword()">
+<table id="crossword_table">
+</table> <br>
+ACROSS:<br>
+1. Famous band, with "four" <br>
+4. Tech. for seabed tourism <br>
+9. Precedes "gonnit" or "wood" <br>
+12. Common gaseous mixture <br>
+13. Propelled, as a boat <br>
+14. Car ad abbreviation <br>
+15. Noted boxer <br>
+16. A large number of 34-across <br>
+17. Answer to a question preceding that posed in 9-down <br>
+18. Chicago political family <br>
+20. Kind of investment account <br>
+21. Word with "full" or "coffee" <br>
+23. Word which succeeds "in" or precedes "tenant" <br>
+25. Partner to sow <br>
+26. Inverse dozens <br>
+30. Building which, biblically, notably lacked room <br>
+31. Norse god of beauty <br>
+32. The nineties' largest producer of CD-ROMS? <br>
+33. Positions held by deities <br>
+34. College student furinture source <br>
+36. Wheat part <br>
+37. French city <br>
+38. Become entitled <br>
+40. Least acidic? <br>
+43. Recent olympic host city <br>
+44. Maid of ... <br>
+45. Familiary: old ... <br>
+48. Shakespeare play (with "much") <br>
+49. Make law <br>
+50. Answer to the question of 9-down <br>
+51. One of Tolkein's hobbits <br>
+52. At Amazon, these are doors <br>
+53. President-elect tweet signoff <br>
+<br>
+DOWN<br>
+1. Airspace-controlling agency (abbr.) <br>
+2. Disease <br>
+3. Big-day participants <br>
+4. Kinds of dirt <br>
+5. Big-day food <br>
+6. Nobel-prize-winning American chemist <br>
+7. Michael of the Milwuakee Bucks <br>
+8. Film preceders <br>
+9. See 50-across and 17-across <br>
+10. Aid <br>
+11. "Golly!" <br>
+19. Snake variety <br> 
+20. Ump <br>
+21. Moralistic person <br>
+22. Nevada city <br>
+24. Large maritime union (abbr.) <br>
+26. Instrument with a slide <br>
+27. Action which is the theme of this puzzle <br>
+28. Rakes' partners <br>
+29. Part of a wing <br>
+31. Counterpart to against <br>
+34. Layer? <br>
+35. Much-hated federal org. <br>
+38. Ages <br>
+39. Verdi opera<br>
+41. Duck, to a Roman<br>
+42. Punch<br>
+44. Journalistic slang akin to "lede" <br>
+46. US accessibility law (abbr.) <br>
+47. A mass of ivy<br>
+</body>
+</html>
+
