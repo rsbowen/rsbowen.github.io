@@ -111,7 +111,12 @@ riot.tag('list-page', '<header class="page"> <h1>Puzzles</h1> <ul class="actions
             { title: "RSB Crosswords",
 	        func: function() {
 		    var retval = [];
-		    retval.push({url: "http://rsbowen.github.io/referee.puz", title: "The Referee"});
+
+                    retval.push({url: "http://rsbowen.github.io/crossword_files/great_abs.puz", title: "Great Abs!"});
+		    retval.push({url: "http://rsbowen.github.io/crossword_files/referee.blanks.puz", title: "The Referee"});
+                    retval.push({url: "http://rsbowen.github.io/crossword_files/andco.puz", title: "And Co."});
+                    retval.push({url: "http://rsbowen.github.io/crossword_files/fruitloops.puz", title: "Fruit Loops"});
+                    retval.push({url: "http://rsbowen.github.io/crossword_files/what_a_show.puz", title: "What A Show!"});
 		    return retval;
 	        }},
         ];
