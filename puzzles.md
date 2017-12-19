@@ -12,6 +12,9 @@ Here are some crossword puzzles I have constructed. Please send any comments to 
   * [Across Lite](http://www.litsoft.com/): Available for **Windows**, **Mac**, and **iPad**.
 
 ## Ohio
+
+A collaboration with my friend Rob Sale.
+
   * [PDF](/crossword_files/ohio.pdf)
   * [PUZ](/crossword_files/ohio.puz)
 
