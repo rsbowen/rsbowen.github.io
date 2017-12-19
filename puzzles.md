@@ -3,7 +3,7 @@ title: RSB Crosswords
 layout: none
 ---
 # RSB Crosswords
-[Quick link to online solving](/crosswords/www/index.html)
+*[Click here to solve the puzzles in your browser!](/crosswords/www/index.html)*
 
 Here are some crossword puzzles I have constructed. Please send any comments to me at (rsbowen at gmail dot com). If you'd like to solve them in your **browser**, you can use my instance of [Robert Schroll's 'crosswords’ HTML5 app](http://rschroll.github.io/crosswords/), a free-software app (GPL) which works reasonably well on most modern desktop and mobile browsers. I also have two other formats available: .puz and .pdf. The latter is suitable for printing, and there are many ways to open a .puz file:
 
