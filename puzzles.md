@@ -12,8 +12,8 @@ Here are some crossword puzzles I have constructed. Please send any comments to 
   * [Across Lite](http://www.litsoft.com/): Available for **Windows**, **Mac**, and **iPad**.
 
 ## Colonel of Truth
-  * [PDF](/crossword_files/ohio.pdf)
-  * [PUZ](/crossword_files/ohio.puz)
+  * [PDF](/crossword_files/colonel_of_truth.pdf)
+  * [PUZ](/crossword_files/colonel_of_truth.puz)
 
 ## Ohio
 
