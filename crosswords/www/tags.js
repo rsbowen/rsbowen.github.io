@@ -112,15 +112,15 @@ riot.tag('list-page', '<header class="page"> <h1>Puzzles</h1> <ul class="actions
 	        func: function() {
 		    var retval = [];
 
-                    retval.push({url: "http://rsbowen.github.io/crossword_files/geography.puz", title: "Geography"});
-                    retval.push({url: "http://rsbowen.github.io/crossword_files/colonel_of_truth.puz", title: "Colonel of Truth"});
-                    retval.push({url: "http://rsbowen.github.io/crossword_files/ohio.puz", title: "Ohio"});
+                    retval.push({url: "../../crossword_files/geography.puz", title: "Geography"});
+                    retval.push({url: "../../crossword_files/colonel_of_truth.puz", title: "Colonel of Truth"});
+                    retval.push({url: "../../rsbowen.github.io/crossword_files/ohio.puz", title: "Ohio"});
                     retval.push({url: "../../crossword_files/escape_claws.puz", title: "Escape Claws"});
-                    retval.push({url: "../crossword_files/great_abs.puz", title: "Great Abs!"});
-		    retval.push({url: "http://rsbowen.github.io/crossword_files/referee.blanks.puz", title: "The Referee"});
-                    retval.push({url: "http://rsbowen.github.io/crossword_files/andco.puz", title: "And Co."});
-                    retval.push({url: "http://rsbowen.github.io/crossword_files/fruitloops.puz", title: "Fruit Loops"});
-                    retval.push({url: "http://rsbowen.github.io/crossword_files/what_a_show.puz", title: "What A Show!"});
+                    retval.push({url: "../../crossword_files/great_abs.puz", title: "Great Abs!"});
+		                retval.push({url: "../../crossword_files/referee.blanks.puz", title: "The Referee"});
+                    retval.push({url: "../../crossword_files/andco.puz", title: "And Co."});
+                    retval.push({url: "../../crossword_files/fruitloops.puz", title: "Fruit Loops"});
+                    retval.push({url: "../../crossword_files/what_a_show.puz", title: "What A Show!"});
 		    return retval;
 	        }},
         ];
