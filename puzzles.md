@@ -11,6 +11,13 @@ Here are some crossword puzzles I have constructed. Please send any comments to 
   * xword: On **Linux**, [xword](https://sourceforge.net/projects/wx-xword/) is the standard for displaying .puz files. It's probably available from your distribution's package manager.
   * [Across Lite](http://www.litsoft.com/): Available for **Windows**, **Mac**, and **iPad**.
 
+## Geography
+
+My first-every crossword to be rejected by a real publication :).
+
+  * [PDF](/crossword_files/geography.pdf)
+  * [PUZ](/crossword_files/geography.puz)
+
 ## Colonel of Truth
   * [PDF](/crossword_files/colonel_of_truth.pdf)
   * [PUZ](/crossword_files/colonel_of_truth.puz)

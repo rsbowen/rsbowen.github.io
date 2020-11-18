@@ -1,0 +1,107 @@
+<html>
+<head>
+<title>Crossword Puzzle</title>
+<style>
+
+//BODY { width: 600px }
+
+TD { background-color: white; width: 25px; height: 25px; margin: 0; padding: 0; vertical-align: top;}
+
+TD.black { background-color: black !important; }
+
+DIV.number { font-size: 8px; font-family: sans-serif; color: #666; margin: 0; padding: 0; }
+
+</style>
+</head>
+<body>
+
+<br /><br />© <br /><table border="1" cellpadding="0" cellspacing="0" align="right"><tr><td><div class="number">1</div></td><td><div class="number">2</div></td><td><div class="number">3</div></td><td><div class="number">4</div></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">5</div></td><td><div class="number">6</div></td><td><div class="number">7</div></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">8</div></td><td><div class="number">9</div></td><td><div class="number">10</div></td><td><div class="number">11</div></td><td><div class="number">12</div></td><td><div class="number">13</div></td></tr>
+<tr><td><div class="number">14</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">15</div></td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">16</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td><div class="number">17</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><div class="number">18</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><div class="number">19</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">20</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">21</div></td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td></tr>
+<tr><td><div class="number">22</div></td><td><div class="number">23</div></td><td><div class="number">24</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><div class="number">25</div></td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">26</div></td><td><div class="number">27</div></td><td><div class="number">28</div></td><td><div class="number">29</div></td></tr>
+<tr><td><div class="number">30</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><div class="number">31</div></td><td><div class="number">32</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td><div class="number">33</div></td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">34</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">35</div></td><td>&nbsp;</td><td><div class="number">36</div></td><td><div class="number">37</div></td><td><div class="number">38</div></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">39</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td></tr>
+<tr><td><div class="number">40</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><div class="number">41</div></td><td><div class="number">42</div></td><td><div class="number">43</div></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">44</div></td><td>&nbsp;</td><td><div class="number">45</div></td></tr>
+<tr><td><div class="number">46</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><div class="number">47</div></td><td><div class="number">48</div></td><td><div class="number">49</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td><div class="number">50</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">51</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">52</div></td><td><div class="number">53</div></td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">54</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td></tr>
+<tr><td><div class="number">55</div></td><td><div class="number">56</div></td><td><div class="number">57</div></td><td><div class="number">58</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><div class="number">59</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td><div class="number">60</div></td><td><div class="number">61</div></td><td><div class="number">62</div></td></tr>
+<tr><td><div class="number">63</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">64</div></td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">65</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td><div class="number">66</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">67</div></td><td>&nbsp;</td><td>&nbsp;</td><td class="black"><img src="http://loxosceles.org/black.png" alt=""/></td><td><div class="number">68</div></td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+</table><h3>Across</h3>1. Musicians with shock value<br />
+5. "This reads poorly" -- ed.<br />
+8. Hilo's home<br />
+14. Collect<br />
+15. However, slangily<br />
+16. Bombe-ing target<br />
+17. Clean the sidewalk, in the mid-Atlantic?<br />
+20. Search, with 'around'<br />
+21. Rock variety<br />
+22. Judicial dry-run<br />
+26. Keen<br />
+30. Bin, in the Midwest?<br />
+33. About 2.3 trillion GBP, for the UK<br />
+34. Some sing-songy speech<br />
+35. "No more, Your Honor"<br />
+39. Send daggers<br />
+40. Find funny, meanly<br />
+44. "Set in my ways" (with 6-Down)<br />
+46. Beanbag, on the West Coast?<br />
+50. Fatty prefix<br />
+51. Snow-covered stopping spots<br />
+52. Sporting cheer<br />
+54. "The King and I" locale<br />
+55. Expensive hobby, in the Rust Belt?<br />
+63. "Death Note", "Castlevania", and others<br />
+64. Put away<br />
+65. Beginner at Call of Duty, say<br />
+66. Get the truth from<br />
+67. Typesetters' measures<br />
+68. Flightless bird<h3>Down</h3>1. Program<br />
+2. Pigeon parlance<br />
+3. Jones partner<br />
+4. Some bureaucrats<br />
+5. Earning one's keep<br />
+6. See 44-Across<br />
+7. Fight enders, for short<br />
+8. One may be apparent<br />
+9. Actress Hathaway<br />
+10. Get excited or delirious, with "out"<br />
+11. FBI employee, say<br />
+12. "That's my way of thinking", in texting<br />
+13. "Jurassic Park" protagonist Malcolm<br />
+18. Retirement account variety<br />
+19. Composer Gustav<br />
+22. Fantasy collectible-card game with five colorful factions, for short.<br />
+23. Having sequence<br />
+24. Arbitrariness<br />
+25. Year, to Juan<br />
+26. Prefix with 'bat' or 'yoga'<br />
+27. Funerary tradition<br />
+28. [yawn]<br />
+29. Color<br />
+31. Sounds of recognition<br />
+32. NYSE overseers<br />
+36. Clothier Marc<br />
+37. ___-high<br />
+38. Your: fr.<br />
+40. Competing channel to 62-Down<br />
+41. Medieval-era Talmudic and Biblical commentator<br />
+42. "Oh no!"<br />
+43. Partner to Isolde<br />
+45. Sep., Oct., and others<br />
+47. Glamorous groups<br />
+48. Arches National Park neighbor<br />
+49. Famous wreck, with "Fitzgerald"<br />
+52. Old Overholt and others<br />
+53. Altar location<br />
+55. Fuming<br />
+56. It's neither prime nor composite<br />
+57. A light bite<br />
+58. Rock variety<br />
+59. Word with "golf" or "shirt"<br />
+60. Winnie-the-pooh's young friend<br />
+61. Jupiter, e.g.<br />
+62. Competiting channel to 40-Down<br /><hr /></body></html>

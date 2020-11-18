@@ -112,6 +112,7 @@ riot.tag('list-page', '<header class="page"> <h1>Puzzles</h1> <ul class="actions
 	        func: function() {
 		    var retval = [];
 
+                    retval.push({url: "http://rsbowen.github.io/crossword_files/colonel_of_truth.puz", title: "Geography"});
                     retval.push({url: "http://rsbowen.github.io/crossword_files/colonel_of_truth.puz", title: "Colonel of Truth"});
                     retval.push({url: "http://rsbowen.github.io/crossword_files/ohio.puz", title: "Ohio"});
                     retval.push({url: "http://rsbowen.github.io/crossword_files/escape_claws.puz", title: "Escape Claws"});
