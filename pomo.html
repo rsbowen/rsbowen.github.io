@@ -1,0 +1,82 @@
+<!-- Dear reader: I really, really, really don't know html/javascript. Sorry. -->
+<html>
+<style>
+#timer {
+    font-size: 60px;
+    font-family: Verdana;
+}
+#lenlabel {
+    font-family: Georgia;
+}
+
+#length {
+    border-radius: 5px;
+    border: 2px solid darkgray;
+    font-size: 22px;
+}
+</style>
+  <script language="javascript">
+    var timer_active = 0;
+    var target = 0;
+    var beep = 0;
+    var last_pomo_start = 0;
+    function start_timer() {
+      t = parseInt(document.getElementById("length").value);
+      var now = new Date()
+      last_pomo_start = now;
+      target = new Date(now.getTime() + t*60000)
+      timer_active = 1;
+      beep = 0;
+    }
+
+    function stop_timer() {
+      if (timer_active == 1){
+        document.getElementById("timer").innerHTML="";
+      }
+      timer_active = 0;
+      beep = 0;
+    }
+
+    function update() {
+      if (timer_active == 0) {return;}
+      distance = target - new Date().getTime()
+      if (distance < 0) {
+        timer_active = 0;
+        beep = 1;
+        datestring = last_pomo_start.getHours() + ":" + last_pomo_start.getMinutes();
+        document.getElementById("log").innerHTML=datestring+"<br>"+document.getElementById("log").innerHTML;
+        return;
+      }
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      document.getElementById("timer").innerHTML=minutes+":"+seconds;
+    }
+
+    beeptone = new Audio("mixkit-alarm-tone-996.wav")
+    function sound_player() {
+      if (beep == 1) {
+        beeptone.play();
+      }
+    }
+
+    setInterval(update, 1000)
+    setInterval(sound_player, 2000)
+
+    
+  </script>
+
+  <body>
+    <center>
+    <form>
+      <div id = "lenlabel"> Timer length: </div> <input type="text" id="length" size=5> <br>
+      <input type="button" value="Start Pomo", onclick="start_timer()"> <input type="button" value="Cancel Pomo" onclick="stop_timer()">
+    </form>
+    <hr>
+    Time remaining: <br>
+    <p id='timer' class='timer'>17:17</p>
+    <hr>
+    Pomo log
+    <p id='log'></p>
+    </center>
+  </body>
+</html>
