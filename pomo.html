@@ -20,6 +20,18 @@
     var target = 0;
     var beep = 0;
     var last_pomo_start = 0;
+
+    function fmt(i) {
+      if (i < 10) {return "0" + i;}
+      return ""+i;
+    }
+
+    function manual() {
+        var now = new Date();
+        datestring = fmt(now.getHours()) + ":" + fmt(now.getMinutes());
+        document.getElementById("log").innerHTML="(M)"+datestring+"<br>"+document.getElementById("log").innerHTML;
+    }
+
     function start_timer() {
       t = parseInt(document.getElementById("length").value);
       var now = new Date()
@@ -38,10 +50,6 @@
       beep = 0;
     }
 
-    function fmt(i) {
-      if (i < 10) {return "0" + i;}
-      return ""+i;
-    }
 
     function update() {
       if (timer_active == 0) {return;}
@@ -76,6 +84,7 @@
     <form>
       <div id = "lenlabel"> Timer length: </div> <input type="text" id="length" size=5> <br>
       <input type="button" value="Start Pomo", onclick="start_timer()"> <input type="button" value="Cancel Pomo" onclick="stop_timer()">
+      <input type="button" value="Manual Pomo", onclick="manual()">
     </form>
     <hr>
     Time remaining: <br>
