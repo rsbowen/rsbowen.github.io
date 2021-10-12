@@ -6,15 +6,6 @@
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
 <title>Greeks and Calculus: Eudoxus and Dedekind</title>
-<!-- MathJax -->
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-	  TeX: { equationNumbers: { autoNumber: "AMS" } }
-});
-</script>
-<!-- End MathJax -->
 </head>
 <body>
 <div id="layout-content">
@@ -23,54 +14,63 @@ MathJax.Hub.Config({
 </div>
 <p>I think it is well-known among people who like math that the Greeks were not
 that far from the beginnings of what we now call calculus or analysis &ndash; for
-example, Archimedes is understood the convergence of geometric series and the
+example, Archimedes understood the convergence of geometric series; the
 method of exhaustion is very close to what we now call limits. If you squint,
-you'll even find integrals in his work.</p>
+you'll even find integrals in his work.
+</p>
 <p>In an undergraduate math history course, I was pleasantly surprised by some of
 these examples. However, I haven't found anywhere on the web which collects
-them &ndash; that is the purpose of this project. On this page you will find the
-details of the similarity between an early definition of equality of ratios and
-a millenia-later foundational definition of the real numbers.</p>
-<p>Comments? Please email me: <a href="mailto:rsbowen@gmail.com" target=&ldquo;blank&rdquo;>rsbowen@gmail.com</a></p>
+them. On this page you will find the details of the similarity between an early
+definition of equality of ratios and a millenia-later foundational definition
+of the real numbers. I hope to someday get around to collecting other examples.
+</p>
+<p>Comments? Please email me: <a href="mailto:rsbowen@gmail.com" target=&ldquo;blank&rdquo;>rsbowen@gmail.com</a>
+</p>
 <h2>The Main Players</h2>
 <p><a href="https://en.wikipedia.org/wiki/Eudoxus_of_Cnidus" target=&ldquo;blank&rdquo;>Eudoxus of Cnidus</a> was a 4th-
 and 3rd- century BC Greek mathematician. In Euclid, he gives a condition for
 the equality of ratios of magnitudes in terms of conditions only on natural
 numbers. <a href="https://en.wikipedia.org/wiki/Richard_Dedekind" target=&ldquo;blank&rdquo;>Richard Dedekind</a> was a 19th- and 20th- century German mathematician
 famous for the &lsquo;&lsquo;Dedekind cut&rsquo;&rsquo;, a formal construction of the reals from the
-rationals.</p>
-<p>In the context of lengths, which is a first-class object in Greek mathematics,
+rationals.
+</p>
+<p>In the context of lengths, which are a first-class object in Greek mathematics,
 there is no obvious &lsquo;&lsquo;base unit&rsquo;&rsquo; (like the inch), so a single line can't be
 said to have rational or irrational length. It is only in finding the ratios of
 lengths that this distinction appears. Euclid's algorithm can be used to find a
 <b>unit</b> length for two longer lengths, so that each of the longer lengths is an
-integer ratio of the unit length. But it is not always possible to find such a
+integer multiple of the unit length. But it is not always possible to find such a
 unit length &ndash; in contemporary language it is only possible if the ratio of the
 lengths is rational.  However, the Greeks did have a definition for comparing
 two ratios (that is, four lines, or two sets of two lines) for equality &ndash; even
-in the incommensurable case &ndash;, and this is given by Eudoxus.  </p>
+in the incommensurable case &ndash; and this is given by Eudoxus.  
+</p>
 <h2>Eudoxus</h2>
 <p>Euclid states what I call the Eudoxus condition as follows (Boyer, Carl B. <i>The
 History of the Calculus and Its Conceptual Development</i>. New York: Dover, 1959.
-31.):</p>
+31.):
+</p>
 <div class="infoblock">
 <div class="blockcontent">
 <p>Magnitudes are said to be in the same ratio, the first to the second and the
 third to the fourth, when, if any equimultiples whatever be taken of the first
 and third, and any equimultiples whatever of the second and fourth, the former
 equimultiples alike exceed, are alike equal to, or alike fall short of, the
-latter equimultiples respectively taken in the corresponding order</p>
+latter equimultiples respectively taken in the corresponding order
+</p>
 </div></div>
 <p>I find this a little difficult to parse, so here is an example. Suppose I have
 two sets of lines &ndash; red and blue &ndash; and I'd like to know if the red lines&rsquo;
-lengths are in the same ratio as the blue:</p>
+lengths are in the same ratio as the blue:
+</p>
 <table class="imgtable"><tr><td>
-<img src="pair_of_ratios.svg" alt="A pair of ratios, represented as four line segments -- two red, and two blue" width="100%" />&nbsp;</td>
+<img src="./pair_of_ratios.svg" alt="A pair of ratios, represented as four line segments -- two red, and two blue" width="100%" />&nbsp;</td>
 <td align="left"></td></tr></table>
-<p>I can pick any pair of positive integers, \(x\) and \(y\). I repeat the shorter red
-line \(x\) times and the shorter blue line \(x\) times. I repeat the longer red
+<p>Pick any pair of positive integers, \(x\) and \(y\). Repeat the shorter red
+line \(x\) times and the shorter blue line \(x\) times. Repeat the longer red
 line \(y\) times and the longer blue line \(y\) times. Here is the above example
-with \(x=3\) and \(y=2\).</p>
+with \(x=3\) and \(y=2\).
+</p>
 <table class="imgtable"><tr><td>
 <img src="eudoxus_counterexample.svg" alt="The same pair of ratios, with the 'numerator' and 'denominator' repeated three times and two times respectively; the red repeated-numerator is longer than the red repeated-denominator, but the blue repeated-numerator is shorter than the blue repeated-denominator." width="100%" />&nbsp;</td>
 <td align="left"></td></tr></table>
@@ -78,7 +78,8 @@ with \(x=3\) and \(y=2\).</p>
 repeated-long-red-line, but the repeated-short-blue-line is still shorter than
 the repeated-long-blue-line. This means the ratios are unequal. If I can find
 no such pair \(x,y\), then the ratios are equal. In contemporary notation, we
-might say:</p>
+might say:
+</p>
 <p style="text-align:center">
 \[
 \frac{a}{b} = \frac{c}{d} \leftrightarrow \left [ \forall x \forall y \left( xa \geq yb
@@ -86,7 +87,8 @@ might say:</p>
 \]
 </p><p>for positive <b>integers</b> \(x\) and \(y\). A short proof of this fact using modern
 language follows. Forward direction: let \(x\) and \(y\) be arbitrary integers and
-\(a/b = c/d\). Then:</p>
+\(a/b = c/d\). Then:
+</p>
 <p style="text-align:center">
 \[
 \begin{align*}
@@ -94,7 +96,8 @@ language follows. Forward direction: let \(x\) and \(y\) be arbitrary integers a
 \frac{xa}{yb} &amp;= \frac{xc}{yd}
 \end{align*}
 \]
-</p><p>This identity is useful in the following chain of biconditionals:</p>
+</p><p>This identity is useful in the following chain of biconditionals:
+</p>
 <p style="text-align:center">
 \[
 xa \geq yb \leftrightarrow \frac{xa}{yb} \geq 1 \leftrightarrow 
@@ -103,13 +106,16 @@ xa \geq yb \leftrightarrow \frac{xa}{yb} \geq 1 \leftrightarrow
 </p><p>This completes the forward direction. The reverse direction can be proven by
 contraposition. Let \(a/b \neq c/d\). Without loss of generality, \(a/b &lt; c/d\).
 Then is some rational \(q=m/n\), where \(m\) and \(n\) are integers, which lies between
-them: \(a/b &lt; m/n &lt; c/d\). We may derive:</p>
+them: \(a/b &lt; m/n &lt; c/d\). We may derive:
+</p>
 <p style="text-align:center">
 \[ a/b &lt; m/n \rightarrow na &lt; mb.\]
-</p><p>And simultaneously</p>
+</p><p>And simultaneously
+</p>
 <p style="text-align:center">
 \[ c/d &gt; m/n \rightarrow nc &gt; md.\]
-</p><p>Then \((n,m)\) is a witness which shows the existence of a pair \((x,y)\) where</p>
+</p><p>Then \((n,m)\) is a witness which shows the existence of a pair \((x,y)\) where
+</p>
 <p style="text-align:center">
 \[ \exists x \exists y \left ( xa \geq yb \not \leftrightarrow xc \geq yd \right ). \]
 </p><h2>Eudoxus and Dedekind</h2>
@@ -117,7 +123,8 @@ them: \(a/b &lt; m/n &lt; c/d\). We may derive:</p>
 \(S\) of the rationals subject to the property that \(q \in S\) and \(p&lt;q\) implies
 \(p \in S\). We can identify the real with the obvious limit point; for example,
 \(\sqrt{2}\) is identified with the set of all rationals whose square is less
-than 2.</p>
+than 2.
+</p>
 <p>Eudoxus doesn't give a single object which we might call a <b>real</b> &ndash; only a way
 of comparing them. Such an object is not needed, because philosophically the
 Greeks didn't consider these ratios to be first-class objects.  But suppose we
@@ -136,16 +143,20 @@ two ratios are equal is exactly that the two corresponding tables are
 identical.  The unification of these two formulations is straightforward: if
 and only if the cell in row \(m\) and column \(n\) says &lsquo;&lsquo;\(&lt;\)&rsquo;&rsquo; in the Eudoxus
 table, then add \(m/n\) to Dedekind's set. For example, consider two lines in the
-ratio \(1:\sqrt{2}\).  Any value where</p>
+ratio \(1:\sqrt{2}\).  Any value where
+</p>
 <p style="text-align:center">
 \[1\cdot m &lt; \sqrt{2} \cdot n\]
-</p><p>must have</p>
+</p><p>must have
+</p>
 <p style="text-align:center">
 \[m^2 &lt; 2n^2\]
-</p><p>and thus</p>
+</p><p>and thus
+</p>
 <p style="text-align:center">
 \[(m/n)^2 &lt; 2\]
-</p><p>which is exactly the condition for \(m/n\) to be in \(\sqrt{2}\)'s Dedekind cut.</p>
+</p><p>which is exactly the condition for \(m/n\) to be in \(\sqrt{2}\)'s Dedekind cut.
+</p>
 <p>The Eudoxus stack-\(m\)-and-\(n\) times step can be seen as a comparison to \(m/n\),
 and the fact that Eudoxus requires the same relationship for <b>all</b> pairs of
 integers can be seen as the equivalent of the downward-closure condition.  Once
@@ -153,10 +164,11 @@ we introduce the idea that we should have representative objects built out of
 (infinitely many) integer- or rational- like objects which we identify with
 reals (an idea which is perhaps ontological or philosophical, rather than
 mathematical), the actually mathematics follows quickly &ndash; discovering the
-above equivalence is not difficult.</p>
+above equivalence is not difficult.
+</p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2016-01-16 14:45:19 PST, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2021-10-12 17:27:36 EDT, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </div>
