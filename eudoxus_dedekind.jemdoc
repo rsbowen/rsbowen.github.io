@@ -2,15 +2,15 @@
 
 I think it is well-known among people who like math that the Greeks were not
 that far from the beginnings of what we now call calculus or analysis -- for
-example, Archimedes is understood the convergence of geometric series and the
+example, Archimedes understood the convergence of geometric series; the
 method of exhaustion is very close to what we now call limits. If you squint,
 you'll even find integrals in his work.
 
 In an undergraduate math history course, I was pleasantly surprised by some of
 these examples. However, I haven't found anywhere on the web which collects
-them -- that is the purpose of this project. On this page you will find the
-details of the similarity between an early definition of equality of ratios and
-a millenia-later foundational definition of the real numbers.
+them. On this page you will find the details of the similarity between an early
+definition of equality of ratios and a millenia-later foundational definition
+of the real numbers. I hope to someday get around to collecting other examples.
 
 Comments? Please email me: [rsbowen@gmail.com rsbowen@gmail.com]
 
@@ -22,16 +22,16 @@ numbers. [https://en.wikipedia.org/wiki/Richard_Dedekind Richard Dedekind] was a
 famous for the ``Dedekind cut'', a formal construction of the reals from the
 rationals.
 
-In the context of lengths, which is a first-class object in Greek mathematics,
+In the context of lengths, which are a first-class object in Greek mathematics,
 there is no obvious ``base unit'' (like the inch), so a single line can't be
 said to have rational or irrational length. It is only in finding the ratios of
 lengths that this distinction appears. Euclid's algorithm can be used to find a
 *unit* length for two longer lengths, so that each of the longer lengths is an
-integer ratio of the unit length. But it is not always possible to find such a
+integer multiple of the unit length. But it is not always possible to find such a
 unit length -- in contemporary language it is only possible if the ratio of the
 lengths is rational.  However, the Greeks did have a definition for comparing
 two ratios (that is, four lines, or two sets of two lines) for equality -- even
-in the incommensurable case --, and this is given by Eudoxus.  
+in the incommensurable case -- and this is given by Eudoxus.  
 
 == Eudoxus
 Euclid states what I call the Eudoxus condition as follows (Boyer, Carl B. /The
@@ -54,8 +54,8 @@ lengths are in the same ratio as the blue:
 {}{img_left}{pair_of_ratios.svg}{A pair of ratios, represented as four line segments -- two red, and two blue}{100%}{}{}
 ~~~
 
-I can pick any pair of positive integers, $x$ and $y$. I repeat the shorter red
-line $x$ times and the shorter blue line $x$ times. I repeat the longer red
+Pick any pair of positive integers, $x$ and $y$. Repeat the shorter red
+line $x$ times and the shorter blue line $x$ times. Repeat the longer red
 line $y$ times and the longer blue line $y$ times. Here is the above example
 with $x=3$ and $y=2$.
 
