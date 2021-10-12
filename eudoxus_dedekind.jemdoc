@@ -51,7 +51,7 @@ two sets of lines -- red and blue -- and I'd like to know if the red lines'
 lengths are in the same ratio as the blue:
 
 ~~~
-{}{img_left}{pair_of_ratios.svg}{A pair of ratios, represented as four line segments -- two red, and two blue}{100%}{}{}
+{}{img_left}{./pair_of_ratios.svg}{A pair of ratios, represented as four line segments -- two red, and two blue}{100%}{}{}
 ~~~
 
 Pick any pair of positive integers, $x$ and $y$. Repeat the shorter red
