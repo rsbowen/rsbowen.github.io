@@ -1,0 +1,3 @@
+[submodule "html5-crossword-solver"]
+	path = html5-crossword-solver
+	url = https://github.com/crosswordnexus/html5-crossword-solver/
