@@ -15,6 +15,7 @@ Here are some crossword puzzles I have constructed. Please send any comments to 
 
 My first-every crossword to be rejected by a real publication :).
 
+  * [In-Browser](html5-crossword-solver/index.html?puzzle=../crossword_files/geography.puz)
   * [PDF](/crossword_files/geography.pdf)
   * [PUZ](/crossword_files/geography.puz)
 
