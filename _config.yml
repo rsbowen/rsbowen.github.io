@@ -1,6 +1,19 @@
-#remote_theme: "gaalcaras/academic"
-#remote_theme: "reproio/reproio.github.io"
 plugins: ["jekyll-include-cache"]
 email: "rsbowen@gmail.com"
-title: "Richard Strong Bowen"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+title: ""
+minimal_mistakes_skin : "contrast"
+author:
+  name: "Richard Strong Bowen"
+  bio: "CV researcher and PhD candidate"
+  avatar: "headshot.jpg"
+  location: "New York City"
+  links:
+    - label: "Email"
+      url: "mailto:rsb@cs.cornell.edu"
+    - label: "DBLP"
+      url: "https://dblp.org/pid/37/5252.html"
+    - label: "Google Scholar"
+      url: "https://scholar.google.com/citations?user=L38WAT4AAAAJ&hl=en&oi=sra"
+atom_feed:
+  hide: true
