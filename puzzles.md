@@ -1,6 +1,7 @@
 ---
 title: RSB Crosswords
 layout: none
+invisible: true
 ---
 # RSB Crosswords
 
