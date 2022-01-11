@@ -11,6 +11,13 @@ Here are some crossword puzzles I have constructed. Please send any comments to 
   * xword: On **Linux**, [xword](https://sourceforge.net/projects/wx-xword/) is the standard for displaying .puz files. It's probably available from your distribution's package manager.
   * [Across Lite](http://www.litsoft.com/): Available for **Windows**, **Mac**, and **iPad**.
 
+## Circles
+
+A puzzle with circles in it (PDF forthcoming)
+
+  * [In-Browser](html5-crossword-solver/index.html?puzzle=../crossword_files/circles.puz)
+  * [PUZ](/crossword_files/circles.puz)
+
 ## Geography
 
 My first-ever crossword to be rejected by a real publication :).
