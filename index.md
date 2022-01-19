@@ -14,7 +14,7 @@ I am a PhD candidate (expect to graduate Dec 2022) at [Cornell Tech](https://tec
 We developed a new method for self-supervised monocular disparity estimation from a video collection that skips the traditional posing step, by casting depth estimation as a subspace-estimation problem for optical flow.
 
 *Deep Survival Analysis with Longitudinal X-rays for COVID-19*<small>  
-[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Shu_Deep_Survival_Analysis_With_Longitudinal_X-Rays_for_COVID-19_ICCV_2021_paper.pdf)i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M. Shu, R.S. Bowen, C. Herrmann, G. Qi, M. Santacatterina, and Ramin Zabih</small>
+[ICCV 2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Shu_Deep_Survival_Analysis_With_Longitudinal_X-Rays_for_COVID-19_ICCV_2021_paper.pdf)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M. Shu, R.S. Bowen, C. Herrmann, G. Qi, M. Santacatterina, and Ramin Zabih</small>
 
 
 Using a imaging dataset of early-pandemic COVID-19 patients, we use time-to-event analysis to do automated prognosis from chest x-ray and other data, even in the presence of right censoring.
