@@ -7,8 +7,8 @@ I am a PhD candidate (expect to graduate Dec 2022) at [Cornell Tech](https://tec
 
 ## Publications
 
-*Dimensions of Motion: Learning to Predict a Subspace of Optical Flow from a Single Image*<small>  
-[arXiv](https://arxiv.org/abs/2112.01502), [project page](https://dimensions-of-motion.github.io/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R.S. Bowen, R. Tucker, R. Zabih, and Noah Snavely</small>
+*Dimensions of Motion: Monocular Prediction through Flow Subspaces*<small>  
+[3DV 2022 (oral)](https://arxiv.org/abs/2112.01502), [project page](https://dimensions-of-motion.github.io/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R.S. Bowen, R. Tucker, R. Zabih, and Noah Snavely</small>
 
 
 We developed a new method for self-supervised monocular disparity estimation from a video collection that skips the traditional posing step, by casting depth estimation as a subspace-estimation problem for optical flow.
