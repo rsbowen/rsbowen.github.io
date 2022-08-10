@@ -1,7 +1,7 @@
 plugins: ["jekyll-include-cache"]
 email: "rsbowen@gmail.com"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
-title: ""
+title: "Richard Strong Bowen"
 minimal_mistakes_skin : "contrast"
 author:
   name: "Richard Strong Bowen"
