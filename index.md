@@ -3,7 +3,7 @@ author_profile: true
 layout: single
 classes: wide
 ---
-I am a PhD candidate (expect to graduate Dec 2022) at [Cornell Tech](https://tech.cornell.edu), where I am advised by [Ramin Zabih](http://www.cs.cornell.edu/rdz/). I am also a Student Researcher at [Google Research](https://research.google/). I study computer vision; I have worked on a variety of vision problems and am interested in self-supervision, depth estimation, and adversarial learning. Prior to graduate school, I worked in various places in industry, most recently at Google on the VR Jump camera (I am the engineer who is "weirdly" riding a unicycle in [this Wired article](https://www.wired.com/2015/11/youtube-360-virtual-reality-video/)). I earned my BS in math (with honors and departmental distinction) from Harvey Mudd College in 2010. I also [author crosswords](puzzles.html).
+I am a PhD candidate (expect to defend Feb 2023) at [Cornell Tech](https://tech.cornell.edu), where I am advised by [Ramin Zabih](http://www.cs.cornell.edu/rdz/). I am also a Student Researcher at [Google Research](https://research.google/). I study computer vision; I have worked on a variety of vision problems and am interested in self-supervision, depth estimation, and adversarial learning. Prior to graduate school, I worked in various places in industry, most recently at Google on the VR Jump camera (I am the engineer who is "weirdly" riding a unicycle in [this Wired article](https://www.wired.com/2015/11/youtube-360-virtual-reality-video/)). I earned my BS in math (with honors and departmental distinction) from Harvey Mudd College in 2010. I also [author crosswords](puzzles.html).
 
 ## Publications
 
