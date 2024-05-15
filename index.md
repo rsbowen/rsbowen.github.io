@@ -7,8 +7,8 @@ I am an Applied Research Scientist at [Geomagical Labs](https://www.geomagical.c
 
 ## Publications
 
-*DreamWalk: Style Space Exploration using Diffusion Guidance*<small>
-[arXiv preprint 2024](https://arxiv.org/abs/2404.03145), [project page](https://mshu1.github.io/dreamwalk.github.io/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M. Shu, C.Herrmann, R.S. Bowen, F. Cole and Ramin Zabih</small>
+*DreamWalk: Style Space Exploration using Diffusion Guidance*<small>  
+[arXiv preprint](https://arxiv.org/abs/2404.03145), [project page](https://mshu1.github.io/dreamwalk.github.io/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M. Shu, C.Herrmann, R.S. Bowen, F. Cole and Ramin Zabih</small>
 
 We show that by varying guidance scales over time and space, we can achieve more fine-grained control of image style and content when generating with a standard diffusion model.
 
