@@ -3,9 +3,13 @@ author_profile: true
 layout: single
 classes: wide
 ---
-I am an Applied Research Scientist at [Geomagical Labs](https://www.geomagical.com/). I received my PhD from [Cornell Tech](https://tech.cornell.edu), where I was advised by [Ramin Zabih](http://www.cs.cornell.edu/rdz/). I was also a Student Researcher at [Google Research](https://research.google/). I am interested in computer vision; I have worked on a variety of vision problems and am interested in self-supervision, depth estimation and 3D. Prior to graduate school, I worked in various places in industry, most recently at Google on the VR Jump camera (I am the engineer who is "weirdly" riding a unicycle in [this Wired article](https://www.wired.com/2015/11/youtube-360-virtual-reality-video/)). I earned my BS in math (with honors and departmental distinction) from Harvey Mudd College in 2010. I also [author crosswords](puzzles.html).
+I am a Machine Learning Research Scientist at [Genesis Molecular AI](https//genesis.ml). Previously I was an Applied Research Scientist at [Geomagical Labs](https://www.geomagical.com/). I received my PhD from [Cornell Tech](https://tech.cornell.edu), where I was advised by [Ramin Zabih](http://www.cs.cornell.edu/rdz/). I was also a Student Researcher at [Google Research](https://research.google/). In grad school, worked on a variety of vision problems in self-supervision, depth estimation and 3D. Prior to graduate school, I worked in various places in industry, most recently at Google on the VR Jump camera (I am the engineer who is "weirdly" riding a unicycle in [this Wired article](https://www.wired.com/2015/11/youtube-360-virtual-reality-video/)). I earned my BS in math from Harvey Mudd College in 2010. I also [author crosswords](puzzles.html).
 
 ## Publications
+
+*Pearl: A Foundation Model for Placing Every Atom in the Right Location*<small> [arXiv](https://arxiv.org/abs/2510.24670) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Genesis Research Team </small>
+
+A generative 3D foundation model for AI structure prediction.
 
 *DreamWalk: Style Space Exploration using Diffusion Guidance*<small>  
 [ECCV 2024 AI4VA workshop](https://arxiv.org/abs/2404.03145), [project page](https://mshu1.github.io/dreamwalk.github.io/)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;M. Shu, C.Herrmann, R.S. Bowen, F. Cole and Ramin Zabih</small>
